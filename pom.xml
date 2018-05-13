@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+
+    <modelVersion>4.0.0</modelVersion>
+   
+     <groupId>org.snkit</groupId> 
+     <artifactId>springcloud-turbine-root</artifactId> 
+     <name>Turbineroot</name>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <modules>
+	   <module>eurekaserver</module>   
+	   <module>service1</module>
+	   <module>springcloudturbine</module>
+	   <module>customerserviceregistry</module>
+	   
+    </modules>
+</project>
